@@ -1,0 +1,1 @@
+canvas.tokens.controlled[0].update({height: 1,width: 1,scale: .75})
