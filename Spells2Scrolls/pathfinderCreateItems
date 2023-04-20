@@ -1,0 +1,29 @@
+//Full
+game.items.filter(i => i.folder !== null && i.folder._id == "DJOYytk9q3LKHegz").forEach(spell => {
+    CONFIG.Item.documentClasses.spell.toConsumable(spell,"wand").then(function(result){
+        wand = result
+        wand.folder = game.folders.get("IXWK60CnphN3698i")                                  
+        Item.create(wand)   
+    });
+    CONFIG.Item.documentClasses.spell.toConsumable(spell,"scroll").then(function(result){
+        scroll = result
+        scroll.folder = game.folders.get("IKBDuUYePBh8X1Xj")                                  
+        Item.create(scroll)   
+    });
+    CONFIG.Item.documentClasses.spell.toConsumable(spell,"potion").then(function(result){
+        potion = result
+        potion.folder = game.folders.get("mUpsCD3AVxaTa8b2")                                  
+        Item.create(potion)   
+    });
+})
+
+//Single
+game.items.filter(i => i.folder !== null && i.folder._id == "PPyigJP6navyOAx2").forEach(spell => {
+    if(spell.system.level <= 3){
+        CONFIG.Item.documentClasses.spell.toConsumable(spell,"potion").then(function(result){
+            obj = result
+            obj.folder = game.folders.get("H6d27cwrd82VwxLv")                                  
+            Item.create(obj)   
+        });
+    }
+})

@@ -1,0 +1,33 @@
+{
+  "name": "",
+  "img": "icons/svg/d20-grey.svg",
+  "description": "",
+  "results": [
+  ],
+  "formula": "",
+  "replacement": true,
+  "displayRoll": true,
+  "flags": {
+    "better-rolltables": {
+      "tags": "",
+      "table-type": "none",
+      "table-currency-string": "",
+      "loot-amount-key": "",
+      "loot-actor-name": ""
+    },
+    "exportSource": {
+      "world": "btas",
+      "system": "dnd5e",
+      "coreVersion": "10.290",
+      "systemVersion": "2.0.3"
+    }
+  },
+  "_stats": {
+    "systemId": "dnd5e",
+    "systemVersion": "2.0.3",
+    "coreVersion": "10.290",
+    "createdTime": 1669241450754,
+    "modifiedTime": 1669241521625,
+    "lastModifiedBy": "PHZmRIBhz1kQY0PN"
+  }
+}
